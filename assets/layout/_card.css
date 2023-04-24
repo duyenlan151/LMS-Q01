@@ -1,0 +1,21 @@
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  margin: 0 -2.5rem;
+}
+
+.card-item {
+  margin: 0 2.5rem;
+  width: calc((100%/3) - 5rem);
+  margin-bottom: 2.5rem;
+}
+
+.card-item__heading {
+  font-size: 2.4rem;
+  font-family: var(--roboto_bold);
+  margin-bottom: 1.8rem;
+}
+.card-item__img {
+  float: left;
+}

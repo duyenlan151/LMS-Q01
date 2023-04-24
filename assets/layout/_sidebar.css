@@ -1,0 +1,25 @@
+.sidebar-wrapper {
+  background-color: var(--black-01);
+  min-width: 15rem;
+  height: 100%;
+  position: fixed;
+}
+
+.sidebar-menu {}
+.sidebar-item { }
+.sidebar-item__link {
+  display: block;
+  color: var(--grey-02);
+  font-family: 1.6rem;
+  padding: 1.4rem 1.6rem;
+  font-family: var(--roboto_regular);
+  border-bottom: 1px solid var(--grey-01);
+  transition: all 0.4s ease;
+}
+
+.sidebar-item__link:hover {
+  color: var(--white);
+  background-color: var(--grey-01);
+}
+
+.sidebar-item__link--active { color: var(--white);}
