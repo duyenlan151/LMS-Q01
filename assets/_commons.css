@@ -42,4 +42,5 @@ body {
 .mx-auto { margin: 0 auto;}
 .bg-grey { background-color: var(--grey-03);}
 
-a { text-decoration: none; }
+a { text-decoration: none;};
+img { max-width: 100%; max-height: 100%;}

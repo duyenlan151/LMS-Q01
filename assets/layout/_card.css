@@ -19,3 +19,11 @@
 .card-item__img {
   float: left;
 }
+
+@media screen and (max-width: 1200px) {
+  .card-item  { width: calc((100%/2) - 5rem);}
+}
+
+@media screen and (max-width: 576px) {
+  .card-item  { width: calc((100%) - 5rem);}
+}
