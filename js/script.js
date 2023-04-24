@@ -5,17 +5,14 @@ window.addEventListener("DOMContentLoaded", (event) => {
   findButtonSidebar();
 });
 
-window.addEventListener('resize', function(event) {
+function findButtonSidebar() {
+  const buttonSibar = document.querySelector('.button-sidebar');
+  buttonSibar && buttonSibar.addEventListener('click', toggleSidebar);
+
   const width = document.body.clientWidth;
   if (width <= 768) {
     toggleSidebar();
   }
-}, true);
-
-
-function findButtonSidebar() {
-  const buttonSibar = document.querySelector('.button-sidebar');
-  buttonSibar && buttonSibar.addEventListener('click', toggleSidebar);
 }
 
 function toggleSidebar() {
