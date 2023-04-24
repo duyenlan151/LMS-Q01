@@ -2,12 +2,14 @@
   position: relative;
   left: 15rem;
   width: calc(100% - 15rem);
-  height: 100%;
-  padding: 2rem;
+  height: 100vh;
   text-align: center;
   z-index: -1;
   transition: all .4s ease-out;
 }
+
+.content-main {padding: 2rem;}
+
 
 .content-wrapper--open {
   /* transform: translateX(-15rem); */
